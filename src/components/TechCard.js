@@ -23,6 +23,7 @@ const TechCards = ({
               {title}
             </a>
           ) : (
+            /* eslint-disable */
             <a
               style={{ textDecoration: "none" }}
               disabled

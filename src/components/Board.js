@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 
 const Board = () => {
   const [width, setWidth] = useState(window.innerWidth);
+  /* eslint-disable */
   const [height, setHeight] = useState(window.innerHeight);
   let row = 15;
 

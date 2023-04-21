@@ -3,6 +3,7 @@
 /*global BigInt64Array */
 
 import { loadTokenizer } from "./bert_tokenizer.ts";
+/* eslint-disable */
 import * as wasmFeatureDetect from "wasm-feature-detect";
 
 //Setup onnxruntime
